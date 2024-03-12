@@ -3,11 +3,8 @@ Hosting static webpage using Amazon S3 bucket
 
 For more details find the documentation folder
 
-Instruction: 
+Click on the Live link to find my Portfolio
 
-(shortened the link using url shortner)
-*Copy the below link and open in a new tab/webbrowser*
+[# Live Link:](http://skkportfolio.s3-website-us-east-1.amazonaws.com)
 
-# Live Link:
-*t.ly/6g8oM*
 
