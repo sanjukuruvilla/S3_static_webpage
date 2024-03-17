@@ -367,60 +367,42 @@ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00
 --------------------------------------*/
 
 .education {
-    background: #f9fbfd;
-    padding-top: 50px;
+    background:  #f9fbfd;
+    padding-top:  50px;
 }
-
 .education-horizontal-timeline {
     padding: 80px 0;
 }
 
-/* Update column padding for smaller screens */
-@media screen and (max-width: 768px) {
-    .education-horizontal-timeline .col-sm-4 {
-        padding: 0 5px; /* Adjust padding for smaller screens */
-    }
-}
+/*.education-horizontal-timeline*/
+.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
 
-.single-horizontal-timeline .experience-time h3 {
-    text-transform: capitalize;
-}
+.single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
+.single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
+.single-horizontal-timeline .timeline-content h5 {margin: 15px 0px;}
+.single-horizontal-timeline p {color: #999fb3; width: 120rem}
 
-.single-horizontal-timeline .experience-time h3 span {
-    text-transform: lowercase;
-}
-
-.single-horizontal-timeline .timeline-content h5 {
-    margin: 15px 0;
-}
-
-.single-horizontal-timeline p {
-    color: #999fb3;
-    max-width: 100%; /* Ensure text does not overflow on smaller screens */
-}
-
+/*.timeline-horizontal-border*/
 .timeline-horizontal-border {
-    display: flex;
+    display:  flex;
     align-items: center;
     padding: 26px 0 30px;
 }
-
 .timeline-horizontal-border i {
-    font-size: 10px;
+    font-size:  10px;
     color: #d92cf9;
-    margin-right: 5px;
+    margin-right:  5px;
 }
-
 span.single-timeline-horizontal {
-    display: inline-block;
+    display:  inline-block;
     background: #b2c1ce;
-    height: 1px;
+    height:  1px;
     width: 380px;
 }
+span.single-timeline-horizontal.spacial-horizontal-line {width: 100rem;}
+/*.timeline-horizontal-border*/
 
-span.single-timeline-horizontal.spacial-horizontal-line {
-    width: 100%; /* Adjust width for smaller screens */
-}
+/*.education-horizontal-timeline*/
 
 /*-------------------------------------
         6.  Skills
